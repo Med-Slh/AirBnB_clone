@@ -51,3 +51,46 @@
     font-size: 14px;
     margin-top: -20px;
 }
+
+.popover {
+    display: none;
+    position: absolute;
+    background-color: #FAFAFA;
+    width: 20%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 10px;
+    list-style: none;
+    background-color: #FAFAFA;
+    margin: 0px 10px 10px -20px;
+}
+
+div:hover > .popover {
+    display: block;
+    cursor: pointer;
+}
+
+.popover ul {
+    list-style-type: none;
+    margin: -5px 10px 10px -25px;
+}
+
+.popover h2 {
+    font-size: 16px;
+    margin: 0%;
+}
+
+.popover li {
+    margin: 10px 0px 5px 0px; 
+    list-style: none;
+    padding-left: 5px;
+    display: block;
+    /*grid-row-gap: 4px;*/
+}
+
+.locations:hover > .popover {
+display: block;
+}
+
+
+
